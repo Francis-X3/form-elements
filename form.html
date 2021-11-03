@@ -5,15 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>test</title>
-  .input-text {
-    
-  }
+ <style>
+   .input-text{
+    text-align: center;padding: 10;
+   }
+ </style>
 </head>
 <body>
   <h1 style="background-color:blanchedalmond;color: black;">Registeration form</h1>
   <div style="text-align: center;padding: 10;">
     <form>
-      <p class="input-text">Full Name</p><br>
+      <p>Full Name</p><br>
       <input type="text" name="fullname"><br>
       <p>Email</p>
       <input type="email"><br>
@@ -27,24 +29,23 @@
       <input type="radio" name="Others">Others <br>
     </form>
   </div>
-  <div>
-    <p>Security question</p>
-    <select name="security question" id="">
-      <option value="first-car">What is your first car?</option>
-      <option value="favourite food">What is your favourite food</option>
-    </select>
+  <div class="input-text">
+  <select name="security question" id="">
+    <option value="first-car">What is ur first car?</option>
+    <option value="faourite-food">What is your favourite food? </option>
+  </select>
+</div>
+  <div  class="input-text">
+    <textarea name="answer" id="" cols="20" rows="5"></textarea><br>
   </div>
-  <div>
-    <textarea name="answer" id="" cols="20" rows="5"></textarea>
-  </div>
-  <div>
-    <div>
-      <input type="checkbox" name="checkbox">
+  
+    <div  class="input-text">
+      <input type="checkbox" name="checkbox"><br>
     </div>
-    <div>
-      <input type="submit">
+    <div  class="input-text">
+      <input type="submit"><br>
     </div>
-  </div>
+  
  
 </body>
 </html>
